@@ -73,14 +73,14 @@ docker compose up
 psql -U postgres -h 127.0.0.1 -d postgres
 ``
 
-** postgres_replica**
+**postgres_replica**
 
 ```
 psql -U replicator -h 127.0.0.1 -d postgres
 ```
 
 
-**pg_cat cnnection **
+**pg_cat cnnection**
 
 ```
  psql -h 127.0.0.1 -p 6432 -U test
